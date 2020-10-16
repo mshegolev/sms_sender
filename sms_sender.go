@@ -9,7 +9,7 @@ import (
 func main() {
 	apiID := "changeMe!"
 	message := "Hello world!"
-	phoneNumber := "9211232323"
+	phoneNumber := "89211232323"
 	smsURL := "https://sms.ru/sms/send?api_id=key&to=number&msg=message&json=1"
 	smsURL = strings.Replace(smsURL, "key", apiID, 1)
 	smsURL = strings.Replace(smsURL, "number", phoneNumber, 1)
